@@ -29,7 +29,8 @@ function PostForm() {
         }
       });
       values.body = '';
-    }
+    },
+    onError(err){}
   });
 
   function createPostCallback() {
